@@ -1,0 +1,71 @@
+/* ViewCourse.css */
+
+.view-course-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.view-course {
+    background-color: white; /* Set the background color to white */
+    border: 1px solid #d18cea; /* Same border style as .cards */
+    border-left: #ed7bcd 10px solid; /* Same border-left color */
+    border-radius: 20px; /* Same border-radius as .cards */
+    padding: 20px; /* Increase padding for more space */
+    max-width: 600px; /* Match max-width of .cards */
+    width: 100%; /* Full width for responsive design */
+    display: flex; /* Flex display to align content */
+    flex-direction: column; /* Arrange content vertically */
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow for better visibility */
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #d96bd9b3; /* Match color with .btn-view border */
+}
+
+.view-course-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content */
+}
+
+.course-image {
+    width: 100%; /* Full width for the image */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 500px; /* Limit image width */
+    border-radius: 10px; /* Rounded corners for the image */
+    margin-bottom: 20px; /* Space below the image */
+}
+
+.subject {
+    color: darkmagenta; /* Match subject color */
+    font-weight: bold;
+    font-size: 1.5rem; /* Increase font size */
+    margin-bottom: 10px; /* Space below the subject */
+}
+
+.teacher {
+    color: black; /* Match teacher color */
+    font-weight: bold;
+    margin-bottom: 10px; /* Space below the teacher */
+}
+
+p {
+    font-size: 1rem; /* Set font size for description */
+    text-align: center; /* Center align text */
+}

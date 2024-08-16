@@ -1,0 +1,17 @@
+.cardAbout{
+
+
+    border-radius: 20px;
+    border-left: #B33BDF 5px solid;
+    border-right: #B33BDF 5px solid;
+    padding-left: 15px;
+    padding-bottom: -10px;
+    background-color: #f7f5f66a;
+}
+
+div.box h4{
+    color: #B33BDF;
+}
+div.box h5{
+    font-weight: bolder;
+}

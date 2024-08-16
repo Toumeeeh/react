@@ -1,0 +1,9 @@
+.explore{
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 4px solid rgba(80, 7, 68, 0.838);
+}

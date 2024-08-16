@@ -1,0 +1,48 @@
+.user-card {
+    border-radius: 20px;
+    border: 1px solid #d18cea;
+    background-color: #efc7e408;
+    border-left: #ed7bcd 10px solid;
+    padding-bottom: 10px;
+}
+
+.name {
+    color: darkmagenta;
+    font-weight: bold;
+}
+
+.email {
+    color: black;
+    font-weight: bold;
+}
+
+.wallet, .user-type {
+    color: #333;
+}
+
+.add-money-btn, .btn-delete {
+    border: solid 2px #d96bd9b3;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 5px 15px;
+    padding-bottom: 7px;
+    margin-left: 13px;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+}
+
+.add-money-btn:hover, .btn-delete:hover {
+    color: rgba(0, 0, 0, 0.639);
+    background-color: #ed7bcdb8;
+}
+.user-avatar {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    max-width: 150px;
+    margin: 0 auto 15px;
+}

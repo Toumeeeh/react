@@ -1,0 +1,67 @@
+.add-money-btn,.btn-delete {
+    border: solid 2px #d96bd9b3;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+
+}
+
+.add-money-btn:hover {
+    color: rgba(0, 0, 0, 0.639);
+    background-color: #ed7bcdb8;
+}
+.amount-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.amount-input {
+    border: solid 2px #d96bd9b3;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    width: 80%; /* Adjust width as needed */
+    background-color: #f8f8f8;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Center the input */
+}
+
+.amount-input:focus {
+    outline: none;
+    border-color: #ed7bcd;
+    background-color: #ffffff;
+}
+
+.error-message {
+    background-color: #ffccd5;
+    color: #a94442;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    width: fit-content;
+    margin: 10px auto;
+}
+.text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 4px solid rgba(80, 7, 68, 0.838);  /* Border directly under text */
+    display: inline-block;  /* Make the text take up only as much space as needed */
+    text-align: center;
+}
+.containerr {
+    display: flex;
+    justify-content: center;  /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    margin-bottom: 15px;
+}

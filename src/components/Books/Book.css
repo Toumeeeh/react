@@ -1,0 +1,47 @@
+.book-card {
+    border-radius: 20px;
+    border: 1px solid #d18cea;
+    background-color: #efc7e408;
+    border-left: #ed7bcd 10px solid;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    max-width: 600px;
+}
+
+.book-title {
+    color: darkmagenta;
+    font-weight: bold;
+}
+
+.btn-view {
+    border: solid 2px #d96bd9b3;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 5px 15px;
+    margin-left: 13px;
+    letter-spacing: 0.8px;
+    cursor: pointer !important;
+    text-decoration: none;
+}
+
+.book-card .btn-view:hover {
+    color: rgba(0, 0, 0, 0.639);
+    background-color: #ed7bcdb8;
+}
+
+.image-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.book-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 20px;
+}

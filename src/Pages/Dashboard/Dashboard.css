@@ -1,0 +1,17 @@
+.btn-primary{
+    border: solid 2px #d96bd9b3;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.btn-primary:hover{
+    color: rgba(0, 0, 0, 0.639);
+    background-color: #ed7bcdb8;
+    border: solid 2px #d96bd9b3;
+    border-radius: 20px;
+}

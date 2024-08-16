@@ -1,0 +1,16 @@
+
+.explore{
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 4px solid rgba(80, 7, 68, 0.838);
+}
+.course-image {
+    width: 100%;  /* Adjust width based on your design */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover;  /* Adjust this if you want specific cropping */
+    margin-bottom: 15px;
+}
